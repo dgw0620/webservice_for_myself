@@ -1,5 +1,7 @@
 package com.springboot.webservice_for_myself.config.auth;
 
+import com.springboot.webservice_for_myself.config.auth.dto.OAuthAttributes;
+import com.springboot.webservice_for_myself.config.auth.dto.SessionUser;
 import com.springboot.webservice_for_myself.domain.user.User;
 import com.springboot.webservice_for_myself.domain.user.UserRepository;
 import lombok.RequiredArgsConstructor;
@@ -13,7 +15,6 @@ import org.springframework.security.oauth2.core.user.OAuth2User;
 import org.springframework.stereotype.Service;
 
 import javax.servlet.http.HttpSession;
-import java.util.Collection;
 import java.util.Collections;
 
 @RequiredArgsConstructor
@@ -35,12 +36,12 @@ public class CustomOAuth2UserService implements OAuth2UserService<OAuth2UserRequ
 
         User user = saveOrUpdate(attributes);
 
-        httpSession.setAttribute("user", new SeesionUser(user));
+        httpSession.setAttribute("user", new SessionUser(user));
 
         return new DefaultOAuth2User(
                 Collections.singleton(new SimpleGrantedAuthority(user.getRoleKey())),
                 attributes.getAttributes(),
-                attributes.getANameAttributeKey());
+                attributes.getNameAttributeKey());
     }
 
     private User saveOrUpdate(OAuthAttributes attributes) {
