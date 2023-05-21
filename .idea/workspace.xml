@@ -4,13 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c03c2155-f527-40d0-905e-85c3bd10034b" name="변경" comment="스프링 부트와 AWS로 혼자 구현하는 웹 서비스 4일차">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springboot/webservice_for_myself/config/auth/dto/OAuthAttributes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springboot/webservice_for_myself/config/auth/dto/SessionUser.java" afterDir="false" />
+    <list default="true" id="c03c2155-f527-40d0-905e-85c3bd10034b" name="변경" comment="스프링 부트와 AWS로 혼자 구현하는 웹 서비스 5일차">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springboot/webservice_for_myself/config/JpaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springboot/webservice_for_myself/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springboot/webservice_for_myself/config/auth/LoginUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springboot/webservice_for_myself/config/auth/LoginUserArgumentResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springboot/webservice_for_myself/config/auth/CustomOAuth2UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springboot/webservice_for_myself/config/auth/CustomOAuth2UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springboot/webservice_for_myself/WebserviceForMyselfApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springboot/webservice_for_myself/WebserviceForMyselfApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/springboot/webservice_for_myself/config/auth/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springboot/webservice_for_myself/config/auth/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springboot/webservice_for_myself/config/auth/dto/OAuthAttributes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springboot/webservice_for_myself/config/auth/dto/OAuthAttributes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springboot/webservice_for_myself/config/auth/dto/SessionUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springboot/webservice_for_myself/config/auth/dto/SessionUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springboot/webservice_for_myself/web/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springboot/webservice_for_myself/web/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/springboot/webservice_for_myself/web/HelloControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/springboot/webservice_for_myself/web/HelloControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/springboot/webservice_for_myself/web/IndexControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/springboot/webservice_for_myself/web/IndexControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/springboot/webservice_for_myself/web/PostsApiControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/springboot/webservice_for_myself/web/PostsApiControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,12 +38,26 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="webservice_for_myself" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="webservice_for_myself" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="webservice_for_myself" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -42,6 +69,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -75,16 +103,76 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;모듈&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;5fb30043659bf7be81acbfbdcf51b1ce&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mariadb&quot;
+    ]
   }
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\dgw06\IdeaProjects\webservice_for_myself" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.springboot.webservice_for_myself.config" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.webservice_for_myself.test의 전부 (4)">
+    <configuration name="HelloControllerTest.hello가_리턴된다" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="webservice_for_myself.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springboot.webservice_for_myself.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.springboot.webservice_for_myself.web" />
+      <option name="MAIN_CLASS_NAME" value="com.springboot.webservice_for_myself.web.HelloControllerTest" />
+      <option name="METHOD_NAME" value="hello가_리턴된다" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="webservice_for_myself.test의 전부 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="webservice_for_myself.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="webservice_for_myself.test의 전부 (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="webservice_for_myself.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="webservice_for_myself.test의 전부 (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="webservice_for_myself.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="webservice_for_myself.test의 전부 (4)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="webservice_for_myself.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WebserviceForMyselfApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="webservice_for_myself.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.springboot.webservice_for_myself.WebserviceForMyselfApplication" />
@@ -92,6 +180,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.webservice_for_myself.test의 전부 (4)" />
+        <item itemvalue="JUnit.webservice_for_myself.test의 전부 (3)" />
+        <item itemvalue="JUnit.webservice_for_myself.test의 전부 (2)" />
+        <item itemvalue="JUnit.webservice_for_myself.test의 전부 (1)" />
+        <item itemvalue="JUnit.HelloControllerTest.hello가_리턴된다" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -103,7 +200,10 @@
       <updated>1684332362604</updated>
       <workItem from="1684332363693" duration="6091000" />
       <workItem from="1684404379390" duration="1376000" />
-      <workItem from="1684407209497" duration="1170000" />
+      <workItem from="1684407209497" duration="1198000" />
+      <workItem from="1684563552091" duration="12708000" />
+      <workItem from="1684599301817" duration="2189000" />
+      <workItem from="1684668701978" duration="615000" />
     </task>
     <task id="LOCAL-00001" summary="스프링 부트와 AWS로 혼자 구현하는 웹 서비스 4일차">
       <created>1684344660039</created>
@@ -112,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684344660039</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="스프링 부트와 AWS로 혼자 구현하는 웹 서비스 5일차">
+      <created>1684408396681</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684408396681</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +227,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="스프링 부트와 AWS로 혼자 구현하는 웹 서비스 4일차" />
-    <option name="LAST_COMMIT_MESSAGE" value="스프링 부트와 AWS로 혼자 구현하는 웹 서비스 4일차" />
+    <MESSAGE value="스프링 부트와 AWS로 혼자 구현하는 웹 서비스 5일차" />
+    <option name="LAST_COMMIT_MESSAGE" value="스프링 부트와 AWS로 혼자 구현하는 웹 서비스 5일차" />
   </component>
 </project>
